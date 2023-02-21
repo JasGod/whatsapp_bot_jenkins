@@ -1,0 +1,20 @@
+{
+  "name": "nity_bot",
+  "version": "1.0.0",
+  "description": "Whatsapp automation to run test from whatsapp and receive report.",
+  "main": "index.js",
+  "dependencies": {
+    "@playwright/test": "^1.30.0",
+    "nodemon": "^2.0.20",
+    "playwright": "^1.30.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.19.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "start": "nodemon index.js"
+  },
+  "author": "T2CJ",
+  "license": "ISC"
+}
